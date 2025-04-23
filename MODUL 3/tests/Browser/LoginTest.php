@@ -17,8 +17,8 @@ class LoginTest extends DuskTestCase
             $browser-> clickLink('Login')
                     -> type ('name', 'mawar')
                     -> type ('email', 'mawarkusuma694@gmail.com')
-                    -> type ('password', 'password')
-                    -> type ('password_confirmation', 'password')
+                    -> type ('password', '1202220082')
+                    -> type ('password_confirmation', '1202220082')
                     -> press('Login')
                     ->assertPathIs('/dashboard');
 
